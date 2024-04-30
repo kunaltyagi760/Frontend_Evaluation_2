@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,34 +10,39 @@
 
         @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@700&family=Inter:wght@100..900&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prosto+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shojumaru&family=Ubuntu&family=ZCOOL+KuaiLe&display=swap');
 
-        *{
+        * {
             margin: 0px;
             padding: 0px;
             box-sizing: border-box;
         }
-        .container{
+
+        .container {
             width: 1440px;
             margin: auto;
         }
-        .home{
+
+        .home {
             padding: 16px;
             background-color: #434CCC;
             color: #FFFFFF;
 
         }
-        .nav{
+
+        .nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-        #logo{
+
+        #logo {
             font-family: DM Serif Display;
             font-size: 40px;
             line-height: 48px;
             margin-left: 135px;
 
         }
-        .nav_box{
+
+        .nav_box {
             display: flex;
             align-items: center;
             font-family: DM Sans;
@@ -45,12 +51,13 @@
             gap: 40px;
 
         }
-        .nav_box > div{
+
+        .nav_box>div {
             text-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 
         }
-        
-        #btn-1{
+
+        #btn-1 {
             font-family: DM Sans;
             font-size: 16px;
             line-height: 24px;
@@ -60,72 +67,83 @@
             background-color: #434CCC;
             color: #FFFFFF;
             border-radius: 5px;
-            
+
         }
 
-        #btn-1:hover{
+        #btn-1:hover {
             border: 1px solid rgb(236, 132, 94);
             box-shadow: rgba(236, 132, 94, 0.24) 0px 3px 8px;
         }
-        .home_text{
+
+        .home_text {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             padding: 47px;
         }
-        #contact{
-        font-family: DM Serif Display;
-        font-size: 72px;
-        line-height: 80px;
+
+        #contact {
+            font-family: DM Serif Display;
+            font-size: 72px;
+            line-height: 80px;
 
         }
-        #text-1{
-        font-family: DM Sans;
-        font-size: 20px;
-        line-height: 32px;
+
+        #text-1 {
+            font-family: DM Sans;
+            font-size: 20px;
+            line-height: 32px;
 
         }
-        .map > img{
+
+        .map>img {
             width: 1170px;
             margin: auto;
             height: 640px;
             margin: 64px 135px;
 
         }
-        .info{
+
+        .info {
             width: 1170px;
             margin: auto;
+            display: flex;
+            gap: 66px;
         }
+
         #msg{
             font-family: DM Serif Display;
             font-size: 56px;
             line-height: 64px;
 
         }
-        .info > div:nth-child(2){
+
+        .info>div>div:nth-child(2) {
             display: flex;
             margin-top: 8px;
             padding-top: 28px;
             gap: 33px;
-            
+
         }
-        .info > div:nth-child(2) > input{
+
+        .info>div>div:nth-child(2)>input {
             width: 401px;
             height: 48px;
             padding: 12px 16px;
             line-height: 24px;
             border-radius: 5px;
             border: 1px solid #DADADA
-
         }
-        .info > div:nth-child(2) > input::placeholder{
+
+        .info>div>div:nth-child(2)>input::placeholder {
             font-family: DM Sans;
             font-size: 16px;
             line-height: 24px;
             color: #00000080;
         }
-        .info textarea{
+
+        .info textarea {
             margin-top: 32px;
             width: 834px;
             height: 144px;
@@ -134,54 +152,164 @@
             border-radius: 5px;
             border: 1px solid #DADADA;
             resize: none;
-           
+
         }
-        .info textarea::placeholder{
+
+        .info textarea::placeholder {
             font-family: DM Sans;
             font-size: 16px;
             line-height: 24px;
             color: #00000080;
-            
+
 
         }
 
+        #btn-2 {
+            width: 170px;
+            height: 48px;
+            border-radius: 5px;
+            background-color: #434CCC;
+            border: 1px solid #000000;
+            box-shadow: 0px 4px 4px 0px #00000040;
+            font-family: DM Sans;
+            font-weight: 700;
+            line-height: 24px;
+            color: #FFFFFF;
+            margin: 32px 0px 79px 0px;
+
+        }
+
+        #btn-2:hover {
+            border: 2px solid palevioletred;
+            border-radius: 0%;
+        }
+        .icons{
+            display: flex;
+            align-items: center;
+            gap: 22px;
+        }
+        .icon{
+            width: 48px;
+            font-size: 26px;
+            background: linear-gradient(225deg, #FFC105 0%, #737CFF 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            border: 2px solid #FFC105;
+            border-radius: 60%;
+            padding: 10px;
+            text-align: center;
+
+        }
+        .icons > div{
+            font-family: DM Sans;
+            color: #00000080;
+
+        }
+        .phone{
+            display: flex;
+            margin: 32px 0px;
+            gap: 30px;
+            align-items: center;
+        }
+        .phone > div{
+            font-family: DM Sans;
+            font-size: 20px;
+            line-height: 32px;
+            font-weight: 500;
+
+        }
+        .mail{
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            margin-bottom: 54px;
+        }
+        .mail > div{
+            font-family: DM Sans;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: bold;
+
+        }
+        .social-icon{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .social-icon > div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 48px;
+            height: 48px;
+            background-color: #434CCC;
+            color: #FFFFFF;
+            border-radius: 5px;
+        }
     </style>
+    <script src="https://kit.fontawesome.com/0718d125ef.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
     <div class="container">
         <div class="home">
             <div class="nav">
                 <div id="logo">LOGO</div>
-            <div class="nav_box">
-                <div>About</div>
-                <div>Portfolio</div>
-                <div>Blog</div>
-                <div>Contact</div>
-                <button id="btn-1">Sign up</button>
-            </div>
-            
+                <div class="nav_box">
+                    <div>About</div>
+                    <div>Portfolio</div>
+                    <div>Blog</div>
+                    <div>Contact</div>
+                    <button id="btn-1">Sign up</button>
+                </div>
+
             </div>
             <div class="home_text">
                 <div id="contact">Contact</div>
                 <div id="text-1">Pro eu apeirian suavitate dissentiet</div>
             </div>
-            
-            
+
+
         </div>
 
         <div class="map">
             <img src="https://i.ibb.co/fCR3rdS/Bitmap.png" alt="Bitmap">
         </div>
         <div class="info">
-            <div id="msg">Message</div>
             <div>
-                <input type="text" id="name" placeholder="Your name">
-                <input type="text" id="email" placeholder="Your email">
+                <div id="msg">Message</div>
+                <div>
+                    <input type="text" id="name" placeholder="Your name">
+                    <input type="text" id="email" placeholder="Your email">
+                </div>
+                <div>
+                    <textarea id="message" placeholder="Your message"></textarea>
+                </div>
+                <div>
+                    <button id="btn-2">Submit</button>
+                </div>
             </div>
             <div>
-                <textarea id="message" placeholder="Your message"></textarea>
+                <div id="msg">Info</div>
+                <div class="icons"><i class="fa-solid fa-location-dot icon"></i><div>123 Dicunt Ancillae, Mea Homero Persequeris USA</div></div>
+                <div class="phone">
+                    <i class="fa-solid fa-phone icon"></i>
+                    <div>123-4567890123</div>
+                </div>
+                <div class="mail">
+                    <i class="fa-solid fa-envelope icon"></i>
+                    <div>info@gmail.com</div>
+                </div>
+                <div class="social-icon">
+                    <div><i class="fa-brands fa-facebook-f"></i></div>
+                    <div><i class="fa-brands fa-twitter"></i></div>
+                    <div><i class="fa-brands fa-instagram"></i></div>
+                </div>
             </div>
         </div>
     </div>
 </body>
+
 </html>
