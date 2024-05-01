@@ -247,6 +247,67 @@
             color: #FFFFFF;
             border-radius: 5px;
         }
+        .footer{
+            width: 1440px;
+            height: 352px;
+            background-color: #FFDD78;
+            padding: 80px 135px;
+            display: flex;
+            gap: 84px;
+
+        }
+        .footer h5{
+            font-family: DM Sans;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.3em;
+            margin-bottom: 21px;
+
+        }
+        .footer h2{
+            font-family: DM Serif Display;
+            font-size: 56px;
+            font-weight: 400;
+            line-height: 64px;
+
+        }
+        .footer > div:nth-child(2){
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        .email{
+            width: 370px;
+            height: 48px;
+            border: 1px solid #DADADA;
+            border-radius: 5px;
+            padding: 13px 11px;
+        }
+        .email::placeholder{
+            font-family: DM Sans;
+            font-size: 16px;
+            line-height: 24px;
+            color: #00000080;
+        }
+        .footer button{
+            width: 170px;
+            height: 48px;
+            background-color: #434CCC;
+            text-align: center;
+            border-radius: 5px;
+            color: #FFFFFF;
+            font-family: DM Sans;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            border: none;
+
+        }
+        .footer button:hover{
+            border: 2px solid palevioletred;
+            border-radius: 0%;
+        }
     </style>
     <script src="https://kit.fontawesome.com/0718d125ef.js" crossorigin="anonymous"></script>
 
@@ -307,6 +368,17 @@
                     <div><i class="fa-brands fa-twitter"></i></div>
                     <div><i class="fa-brands fa-instagram"></i></div>
                 </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div>
+                <h5>PERICULA</h5>
+                <h2>Mea modus volumus 
+                    abhorreant</h2>
+            </div>
+            <div>
+                <input type="text" placeholder="Email" class="email">
+                <button>Subscribe</button>
             </div>
         </div>
     </div>
